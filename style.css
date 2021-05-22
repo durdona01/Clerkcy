@@ -61,7 +61,7 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    width: 1440px;
+    /* width: 1440px; */
 }
 
 h1,h2{
@@ -139,11 +139,9 @@ p{
 
 /* =============MAIN START================ */
 
-
-
 .section-introduction{
     width: 100%;
-    width: 1440px;
+    /* width: 1440px; */
     height: 544px;
     position: relative;
     background-color: var(--main-color);
@@ -151,7 +149,7 @@ p{
     background-image: url(./img/introduction.png);
     background-repeat: no-repeat;
     background-size: 738px  580px;
-    background-position-x: 622px;
+    background-position-x: 582px;
 }
 
 .container-introduction{
@@ -434,15 +432,7 @@ p{
     margin-bottom: 19px;
 }
 
-.hrresorce-btn{
-    display: inline-block;
-    margin-left: 98px;
-    background-color: var(--btn-color);
-    border-radius: 160px;
-    border: none;
-}
-
-.hrresorce-btn:hover{
+.hrresorce-btn_link:hover{
     background-color: rgba(247, 188, 40, 1);
     transition: 0.3s ease ;
     box-shadow: 0 0 10px 3px rgba(247, 188, 40, 1);
@@ -450,6 +440,9 @@ p{
 
 .hrresorce-btn_link{
     display: inline-block;
+    margin-left: 98px;
+    background-color: var(--btn-color);
+    border-radius: 160px;
     text-decoration: none;
     color: var(--green-color);
     padding: 15px 25px;
@@ -503,30 +496,21 @@ p{
     margin-bottom: 18px;
 }
 
-.started_btn{
-    display: inline-block;
-    background-color: rgba(250, 181, 160, 1);
-    border-radius: 160px;
-    border: none;
-}
-
-.started_btn:hover{
+.started_btn_link:hover{
     cursor: pointer;
     background-color: var(--btn-color);
     transition: 0.3s ease;
     box-shadow: 0 0 10px 3px var(--btn-color);
 }
 
-.started_btn:hover .started_btn_link{
-    color: var(--green-color);
-}
-
 .started_btn_link{
-    display: block;
+    display: inline-block;
+    background-color: rgba(250, 181, 160, 1);
+    border-radius: 160px;
     padding: 15px 25px;
     text-decoration: none;
     color: var(--main-color);
-    font-style: 18px;
+    font-size: 18px;
     font-weight: 600;
 }
 /* ============STARTED-SECTION END ============ */
@@ -556,22 +540,26 @@ p{
     height: 120px;
 }
 
-
-
-.todate-right_btn{
-    display: block;
-    width: 590px;
-    height: 54px;
-    border-radius: 160px;
-    border: none;
-    position: relative;
-    background-color: #fff;
+.todate-signup-wrapp{
+    display: flex;
     margin-bottom: 11px;
+    position: relative;
 }
 
-
+.todate-right_btn-input[type=text]{
+    display: inline-block;
+    width: 514px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 160px;
+    border-top-left-radius: 160px;
+    border: none;
+    font-size: 22px;
+    outline: none;
+}
+  
 .todate-right_btn_link{
-    display: block;
+    display: inline-block;
     width: 61px;
     height: 22px;
     padding: 15px 25px;
@@ -581,9 +569,9 @@ p{
     font-size: 16px;
     color: var(--green-color);
     position: absolute;
-    right: 0;
-    top: 0;
+    left: 480px;
 }
+
 .todate-right_btn_link:hover{
     background-color: var(--btn-color);
     transition: 0.2s ease;
