@@ -190,13 +190,11 @@ p{
     height: 1226px;
     margin: 120px 0;
     color: var(--main-color);
-    background-color: rgb(241, 117, 117);
 }
 
 .container-partners{
     width: 1180px;
     margin: 0 auto;
-    background-color: rgb(182, 173, 95);
 }
 
 
@@ -204,7 +202,6 @@ p{
     height: 510px;
     position: relative;
     padding-left: 98px;
-    /* background-color: rgb(109, 140, 241); */
 }
 
 .person-left::before{
@@ -237,7 +234,6 @@ p{
 .person-right{
     height: 423px;
     position: relative;
-    background-color: rgb(109, 140, 241);
 }
 
 .person-right::after{
@@ -270,7 +266,6 @@ p{
 
 .partners{
     height: 294px;
-    background-color: rgb(126, 246, 105);
 }
 
 .partners_title{
@@ -345,7 +340,6 @@ p{
     display: flex;
     align-items: start;
     height: 255px;
-    background-color: rgb(46, 219, 147);
 }
 
 .hrproduction-box-edu{
@@ -403,7 +397,6 @@ p{
 .section-hrresource{
     width: 100%;
     color: var(--white-color);
-    background-color: rgb(230, 152, 230);  
 }
 
 .container-hrresource{
@@ -414,7 +407,6 @@ p{
 .hrresource_wrapp{
     height: 514px;
     position: relative;
-    background-color: rgb(109, 219, 246);
 }
 .hrresource_wrapp::after{
     content: '';
