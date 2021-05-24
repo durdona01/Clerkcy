@@ -73,6 +73,12 @@ p{
     font-family: 'Noto Sans', sans-serif;
 }
 
+.container{
+    
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
 
 .header{
     background-color: var(--main-color);
@@ -141,15 +147,9 @@ p{
 
 .section-introduction{
     width: 100%;
-    /* width: 1440px; */
     height: 544px;
-    position: relative;
     background-color: var(--main-color);
     color: var(--green-color);
-    background-image: url(./img/introduction.png);
-    background-repeat: no-repeat;
-    background-size: 738px  580px;
-    background-position-x: 582px;
 }
 
 .container-introduction{
@@ -160,6 +160,18 @@ p{
 .introduction{
     width: 492px;
     height: 294px;
+    position: relative;
+}
+
+.introduction::after{
+    content: '';
+    position: absolute;
+    background-image: url('./img/introduction.png');
+    background-repeat: no-repeat;
+    width:  738px;
+    height: 580px;
+    top: 0;
+    left: 500px;
 }
 
 
@@ -486,8 +498,28 @@ p{
 .started-wrapp{
     padding-top: 120px;
     text-align: center;
-    
 }
+/* 
+.started-wrapp::before{
+    content: '';
+    background: url('./img/started-before.png');
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 20px;
+    left: -80px;
+}
+
+.started-wrapp::after{
+    content: '';
+    background: url('./img/started-after.png');
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    right: 0;
+    top: 20px;
+} */
+
 
 .started_title{
     margin-bottom: 26px;
