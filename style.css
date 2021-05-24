@@ -130,7 +130,7 @@ p{
 .header_btn:hover{
     background-color: rgba(247, 188, 40, 1);
     box-sizing: border-box;
-    transition: 0.3s ease;
+    /* transition: 0.3s ease; */
     box-shadow: 0 0 10px 3px rgba(247, 188, 40, 1);
     cursor: pointer;
 }
@@ -434,7 +434,7 @@ p{
 
 .hrresorce-btn_link:hover{
     background-color: rgba(247, 188, 40, 1);
-    transition: 0.3s ease ;
+    /* transition: 0.3s ease ; */
     box-shadow: 0 0 10px 3px rgba(247, 188, 40, 1);
 }
 
@@ -545,23 +545,19 @@ p{
     margin-bottom: 11px;
     position: relative;
 }
-
-.todate-right_btn-input[type=text]{
-    display: inline-block;
-    width: 514px;
-    padding: 12px 20px;
-    box-sizing: border-box;
+.todate-right_btn-input{
+    width: 543px;
+    height: 52px;
+    border: none;
+    padding-left: 20px;
     border-bottom-left-radius: 160px;
     border-top-left-radius: 160px;
-    border: none;
-    font-size: 22px;
     outline: none;
+    font-size: 22px;
 }
   
 .todate-right_btn_link{
     display: inline-block;
-    width: 61px;
-    height: 22px;
     padding: 15px 25px;
     background-color: var(--btn-color);
     border-radius: 160px;
@@ -570,6 +566,7 @@ p{
     color: var(--green-color);
     position: absolute;
     left: 480px;
+    border:none;
 }
 
 .todate-right_btn_link:hover{
@@ -604,7 +601,6 @@ p{
 .footer_link-wrapp i{
     color: var(--btn-color);
     padding: 7px;
-    /* font-size: 25px 25px; */
 }
 .footer_bottom{
     height: 70px;
